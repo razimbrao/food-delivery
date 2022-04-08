@@ -107,9 +107,11 @@ body{
     margin: 24px 80px 0px 5px;
 }
 
-.creditos a{
-    font-style: none;
+.creditos span{
     color: #909090;
+}
+.creditos a{
+    color: #FF7E00;
 }
 
 .rodape .logo{
