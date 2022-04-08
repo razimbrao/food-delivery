@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-style: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: linear-gradient(304.58deg, #F4ECE1 57.1%, #FCFBF7 145.5%);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.principal{
+    display: flex;
+    margin: 48px 80px 0 80px;
+    justify-content: center;
+}
+
+.conteudo{
+    margin-top: 140px;
+}
+.titulo{
+    display: flex;
+    color: #FF7E00;
+    font-weight: 700;
+    font-size: 125px;
+    align-items: center;
+}
+
+.subtitulo{
+    padding-left: 20px;
+    font-weight: 700;
+    color: black;
+    font-size: 52px;
+    line-height: 50px;
+}
+
+.subtexto{
+    font-weight: 400;
+    font-size: 22px;
+    color: #909090;
+    margin-top: -30px;
+}
+
+
+
+.aviao{
+    position: absolute;
+    top: 170px;
+    left: 640px;
+}
+
+.img-fundo{
+    padding-left: 80px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    border: none;
+
+}
+
+.botao-compre{
+    text-decoration: none;
+    background: #2F2F2F;
+    box-shadow: 0px 20px 32px -8px rgba(0, 0, 0, 0.2);
+    border-radius: 84px;    
+    width: 160px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-right: 20px;
+}
+
+.botao-video{
+    background-color: #FFF8F0;
+    color:#2F2F2F;    
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 32px;
+    margin-right: 20px;
+    width: 57px;
+    height: 57px;
+    box-shadow: 0px 20px 36px -16px rgba(0, 0, 0, 0.1);
+}
+
+.texto-video{
+    font-weight: 600;
+    font-size: 20px;
+    color:#2F2F2F;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 24px 80px 0px 5px;
+}
+
+.creditos a{
+    font-style: none;
+    color: #909090;
+}
+
+.rodape .logo{
+    padding-left: 160px;
+}
+
+.social{
+    float: right;
+}
+
+.social img{
+    width: 42px;
+}
