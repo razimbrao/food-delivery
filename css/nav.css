@@ -59,5 +59,8 @@
     color: black;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
+}
 
+.nav-links a:hover{
+    color: #FF7E00;
 }
