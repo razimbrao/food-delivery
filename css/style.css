@@ -83,10 +83,17 @@ body{
     border-radius: 50%;
     text-align: center;
     font-size: 32px;
+    padding: 2px 8px 2px 8px;
     margin-right: 20px;
     box-shadow: 0px 20px 36px -16px rgba(0, 0, 0, 0.1);
-    padding: 2px 8px 2px 8px;
+    transition-duration: 1s;
 } 
+.botao-video:hover{
+    animation-name: botao-maior;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 .texto-video{
     font-weight: 600;
     font-size: 20px;
@@ -118,3 +125,9 @@ body{
 .social img{
     width: 42px;
 }
+
+@keyframes botao-maior {
+    0% {}
+    100% {font-size: 40px; padding: 3px 10px 3px 10px}
+}
+
